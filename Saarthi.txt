@@ -1,0 +1,230 @@
+App Name: Saarthi 
+“Your companion for an accessible world.”
+
+Meaning:
+
+Saarthi in Hindi means guide or navigator, jaise Mahabharat mein Krishna was Arjun’s Saarthi. Ye naam emotional bhi hai aur empowering bhi
+
+🛑 Problem Statement (for Saarthi App):
+“People with physical disabilities often face serious challenges when visiting public places, such as restaurants without ramps, buildings without elevators, or the absence of accessible washrooms. This lack of accessibility limits their freedom, dignity, and participation in everyday life.”
+
+🧠 Explanation with Examples:
+Imagine a wheelchair user wants to visit a café with friends.
+They check Google Maps — but there's no information about whether the café has a ramp.
+
+They reach the café — only to find a flight of stairs and no help available.
+Result? They either wait outside or go back home. That’s not fair.
+
+Similarly, in a hospital or metro station, if there's no working elevator or no accessible washroom, it becomes a daily struggle for them.
+
+🎯 Why we're building Saarthi:
+To solve this problem by creating a smart, supportive app that helps people with disabilities:
+
+-- Find accessible places (with ramps, lifts, washrooms)
+
+-- Avoid places that are not suitable
+
+-- Move confidently and independently
+
+✅ Solution (What Saarthi App will do):
+Saarthi is a mobile app/ web app that helps differently-abled users find nearby places that are accessible — like restaurants with ramps, buildings with elevators, and public washrooms designed for wheelchair use.
+
+🧠 Explanation with Examples:
+Imagine the same wheelchair user wants to go to a café.
+
+They open the Saarthi app
+
+It shows only those cafés nearby that have a proper ramp, wide entry, and accessible washroom
+
+They even see ratings and photos from other users like them
+
+Saarthi even gives directions with wheelchair-friendly routes
+
+This time, they reach comfortably, enter easily, and enjoy their time with friends — no frustration, no surprises.
+
+💡 Key Benefits: 
+
+Feature                                           --->	   How It Solves the Problem
+🗺️ Filtered Map                              --->	   Shows only accessible places
+🛗 Elevator Info                             --->	   No more surprise stairs
+🚻 Accessible Washroom Finder     ---> 	   Especially helpful in public areas
+🙋 User Reviews                             ---> 	   Real feedback from real users
+🔔 Alert for Inaccessible Areas     ---> 	    App warns user before they go
+
+In short, Saarthi acts as a digital companion — guiding people with disabilities to places where they can go safely, comfortably, and independently.
+
+🚀 Core Features of Saarthi:
+1. 🗺️ Find Nearby Accessible Places
+
+Restaurants, cafes, malls, hospitals, etc.
+
+With filters: Ramp, Elevator, Accessible Washroom
+
+2. 🔍 Search & Filter
+
+Search for any location
+
+Apply accessibility filters (e.g., only places with ramps)
+
+3. 🛗 Elevator Availability Info
+
+Shows if multistorey buildings have working lifts
+
+4. 🚻 Accessible Washroom Finder
+
+Locate nearest public toilets that are wheelchair-friendly
+
+5. 📷 Photos & Reviews by Users
+
+Users can upload photos and write feedback on accessibility
+
+6.➕ Add a New Place
+
+Users can add and share newly discovered accessible places
+
+7. 🚩 Report Inaccurate Info
+
+If a place claims to have a ramp but doesn’t — users can flag it
+
+8. 🔔 Pre-Visit Alert
+
+Saarthi warns if a location might not be accessible
+
+9. 🌐 Multi-language Support (Hindi, English, Marathi)
+
+So more people can use it comfortably
+
+⚙️ Advanced & Optional Features
+1. 🧭 Accessible Navigation (Smart Routes)
+Suggests wheelchair-friendly paths with fewer stairs, bumps, or traffic.
+
+Uses Google Maps + custom AI logic.
+
+2. 🎙️ Voice Control & Audio Guide
+Visually impaired users can use voice commands to search places.
+
+App can read aloud directions and info.
+
+3. 🤖 AI-Based Recommendations
+Suggests nearby accessible places based on user's routine or preferences.
+
+Example: “Your usual café is closed, here’s another one nearby with a ramp.”
+
+4. 🧑‍🤝‍🧑 Volunteer Help System
+Nearby volunteers or NGOs can get alerts if a user needs help.
+
+Example: “Need help entering this building?” — nearby volunteers get notified.
+
+5. 🏥 Book Transport or Medical Help
+Book a wheelchair taxi or call a medical assistant if needed.
+
+Integration with local services (future scope).
+
+6. 🛡️ Emergency Mode (SOS Button)
+With one tap, user can:
+
+Alert family
+
+Share live location
+
+Call helpline
+
+7. 🏆 Reward System
+Users earn points/badges for:
+
+Adding new places
+
+Writing helpful reviews
+
+Reporting fake info
+
+Can be used for small perks or recognition.
+
+8. 🔁 Offline Mode (Basic)
+Access last searched areas even without internet
+
+Especially useful in rural or low-connectivity zones
+
+9. 📊 Accessibility Score
+Each place gets a score based on:
+
+Ramp access
+
+Elevator
+
+Washroom
+
+Reviews
+
+Helps users quickly compare places
+
+--> clean and structured App Flow of Saarthi
+
+----------------------------------------
+🧭 SAARTHI – APP FLOW
+----------------------------------------
+
+1. Splash Screen
+   - Saarthi logo + tagline
+   - Brief loading animation
+
+2. Welcome / Onboarding Screens
+   - What Saarthi does (3–4 slides)
+   - "Next" or "Skip" option
+
+3. Sign Up / Login
+   - Google / Email / Phone login
+   - Basic profile setup (name, location preference)
+
+4. Home Screen (Map View)
+   - Current location on map
+   - Search bar (e.g. "restaurants", "toilets")
+   - Filter button:
+     - ✅ Ramp
+     - ✅ Elevator
+     - ✅ Accessible Toilet
+     - ✅ Verified Places Only
+
+5. Search Results / List View
+   - Cards with place name, distance, access tags
+   - “Accessible Score” icon (1 to 5 stars)
+
+6. Place Details Page
+   - Name, address, access features
+   - Photos uploaded by users
+   - Ratings + written reviews
+   - Report an issue (if info is wrong)
+
+7. Add a Place
+   - Form: Name, address, accessibility features
+   - Upload photo (optional)
+   - Submit for admin review
+
+8. Voice Mode (Optional)
+   - "Say your destination..."
+   - App speaks result (for visually impaired users)
+
+9. Community Tab (Optional)
+   - View shared stories, helpful posts
+   - Like, comment, or share
+   - Confession (anonymous) post option
+
+10. Profile Page
+   - View contribution stats (places added, reviews)
+   - Badges earned
+   - Settings (language, theme, logout)
+
+11. SOS / Emergency Button (Optional)
+   - Call emergency contact
+   - Share live location
+   - Sound alert / notification
+
+12. Admin Panel (Optional - Separate)
+   - Approve/Reject new places
+   - View reports from users
+   - Manage flagged content
+
+----------------------------------------
+
+
+
