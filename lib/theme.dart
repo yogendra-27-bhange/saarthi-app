@@ -6,6 +6,7 @@ class AppColors {
   static const accent = Color(0xFFFFD600);
   static const card = Color(0xFFF5F5F5);
   static const textPrimary = Color(0xFF212121);
+  static const textSecondary = Color(0xFF888888);
 }
 
 class AppSettings extends ChangeNotifier {

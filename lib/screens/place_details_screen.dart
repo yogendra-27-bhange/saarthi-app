@@ -8,9 +8,9 @@ class PlaceDetailsScreen extends StatelessWidget {
   const PlaceDetailsScreen({super.key, required this.place});
 
   void _openMaps() async {
-    final url = 'https://www.google.com/maps/search/?api=1&query=${place.latitude},${place.longitude}';
-    if (await canLaunch(url)) {
-      await launch(url);
+    final url = Uri.parse('https://www.google.com/maps/search/?api=1&query=${place.latitude},${place.longitude}');
+    if (await canLaunchUrl(url)) {
+      await launchUrl(url);
     }
   }
 
