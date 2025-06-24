@@ -11,6 +11,7 @@ import 'screens/profile_screen.dart';
 import 'screens/settings_screen.dart';
 import 'screens/add_place_screen.dart';
 import 'screens/place_details_screen.dart';
+import 'package:saarthi/models/place.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
