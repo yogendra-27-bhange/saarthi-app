@@ -69,4 +69,20 @@ All data is mock/in-memory, so you can showcase the full user flow without any b
 
 ---
 
+## How to add Android and iOS folders if missing
+
+If you see errors like `Seems that "android" folder does not exist` during build (e.g., on Codemagic or CI/CD), it means your project is missing the required platform folders.
+
+To generate them, run this command in your project root:
+
+```
+flutter create --platforms=android,ios .
+```
+
+This will add the necessary `android` and `ios` folders to your Flutter project. Make sure to commit these folders to your repository so that online build tools can find them.
+
+If you cannot run this command locally, ask a team member with Flutter installed to do it, or use a CI/CD step that runs this command before building.
+
+---
+
 **Made with ❤️ using Flutter.** 

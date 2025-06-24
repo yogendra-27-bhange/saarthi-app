@@ -51,7 +51,15 @@ class SaarthiApp extends StatelessWidget {
             '/signup': (context) => const SignUpScreen(),
             '/main': (context) => const MainAppShell(),
             '/add_place': (context) => const AddPlaceScreen(),
-            '/place_details': (context) => const PlaceDetailsScreen(),
+          },
+          onGenerateRoute: (settings) {
+            if (settings.name == '/place_details') {
+              final place = settings.arguments as Place;
+              return MaterialPageRoute(
+                builder: (_) => PlaceDetailsScreen(place: place),
+              );
+            }
+            return null;
           },
         );
       },
