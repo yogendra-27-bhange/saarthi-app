@@ -84,5 +84,13 @@ This will add the necessary `android` and `ios` folders to your Flutter project.
 If you cannot run this command locally, ask a team member with Flutter installed to do it, or use a CI/CD step that runs this command before building.
 
 ---
+## 🚧 Project Status: On Hold
 
-**Made with ❤️ using Flutter.** 
+This project is currently **on hold** due to  limited testing infrastructure.  
+
+I’ve built a solid foundation including the complete UI, authentication flow, and Firebase-ready structure.  
+However, due to the lack of advanced testing tools and production-level devices, I’ve decided to pause active development.
+
+I plan to revisit this project in the future with fresh improvements, real-time data handling, and community feedback.
+
+### 🙌 Contributions are still welcome.
