@@ -1,0 +1,17 @@
+# .github/workflows/test-badge.yml
+name: Test Badge Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Say Hello
+        run: echo "✅ GitHub Actions is working!"
