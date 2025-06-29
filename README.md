@@ -93,4 +93,4 @@ However, due to the lack of advanced testing tools and production-level devices,
 
 I plan to revisit this project in the future with fresh improvements, real-time data handling, and community feedback.
 
-### 🙌 Contributions are still welcome.
+---
